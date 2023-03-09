@@ -67,8 +67,7 @@ fun country(country: String){
 // 4. Function that takes in array of strings and joiin them into one
 
 fun petsName(pets: Array<String>): String{
-    var pet = pets.toString()
-    return pet.toString()
+    return pets.contentToString()
 
 }
 
